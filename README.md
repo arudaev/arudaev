@@ -29,17 +29,18 @@ print(me.say_hello())
 ## Featured Projects 🚀
 
 ### Recent Work
-- 🗑️ **Deggendorf Waste Sorting Assistant** - AI-powered computer vision app helping international students navigate Germany's complex waste sorting system using YOLO and PyTorch
-<!-- - 🗑️ **[Deggendorf Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** - AI-powered computer vision app helping international students navigate Germany's complex waste sorting system using YOLO and PyTorch -->
-- 🚂 **Deutsche Bahn Delay Predictor** - Machine learning model predicting train delays using supervised regression on historical schedule data
-- 🚢 **Titanic Survival Predictor** - Production-ready full-stack application with microservices architecture, featuring ML predictions and modern React UI
+- 🗑️ **[Deggendorf Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** — AI-powered computer vision app that helps international students in Germany sort waste correctly using YOLO and PyTorch.
+- 🏫 **[THD Room Finder](https://github.com/HlexNC/THD-Room-Finder)** — Native Android app that shows free study rooms at THD in real time, with building/time filters, offline caching, and resilient API parsing.
+- 🌍 **[iTravel](https://github.com/HlexNC/iTravel)** — Android travel companion app with map-based discovery, live weather/photo feed, GPS-validated reviews, favorites, and sharing features.
 
 ### Past Projects
-- 🤖 **Devablos V2** - Full-stack chatbot application with real-time WebSocket communication and OpenAI API integration
-- 🏥 **Project Apero** - Stroke risk assessment system combining ML predictions with a Rasa-powered chatbot
-- 📄 **Document Conversion Solutions** - Comprehensive toolkit for converting between DOCX, PPTX, Markdown, and Google Docs formats
-- 🦄 **UNICorn** - AI-powered university assistant
-- 🎮 **WildForFood** - Web-based Unity game
+- 🚂 **Deutsche Bahn Delay Predictor** — Machine learning model predicting train delays using supervised regression on historical schedule data.
+- 🚢 **[Titanic Survival Predictor](https://github.com/random-iceberg/docker-compose)** — Production-ready full-stack ML platform with microservices architecture, role-based auth, and a modern React interface.
+- 🤖 **Devablos V2** — Full-stack chatbot application with real-time WebSocket communication and OpenAI API integration.
+- 🏥 **Project Apero** — Stroke risk assessment system combining ML predictions with a Rasa-powered chatbot.
+- 📄 **Document Conversion Solutions** — Toolkit for converting document formats across Python APIs, frontend web tools, and npm package workflows.
+- 🦄 **UNICorn** — AI-powered university assistant.
+- 🎮 **WildForFood** — Web-based Unity game project built around rapid gameplay iteration.
 
 ## Technical Skills 💻
 
