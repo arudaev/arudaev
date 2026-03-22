@@ -62,7 +62,7 @@ I build things that work in production — not just in notebooks. Most of my pro
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=arudaev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arudaev&layout=compact&theme=tokyonight&hide_border=true" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arudaev&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook" alt="Top Languages" height="165" />
 </p>
 
 <p align="center">
