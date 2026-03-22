@@ -2,7 +2,7 @@
 
 **Software Engineer** · Full-Stack · ML · Android  
 B.A.Sc. Artificial Intelligence @ [Deggendorf Institute of Technology](https://www.th-deg.de/en)  
-Open to internship / working student roles from August 2026
+Open to internship / working student roles
 
 I build things that work in production — not just in notebooks. Most of my professional experience is full-stack web (Next.js, Python, Docker), but I spend a lot of my own time on Android apps and ML systems. I care about clean architecture, test coverage that actually catches things, and writing code that the next person can maintain.
 
@@ -55,7 +55,7 @@ I build things that work in production — not just in notebooks. Most of my pro
 ### What I'm working on right now
 
 - Developing **Zelara** — solving the architectural constraints of privacy-first, on-device ML
-- Preparing for a **summer internship** (Aug–Sep 2026) in software engineering
+- Preparing for a **summer internship** in software engineering
 - Deepening my understanding of **Kubernetes** and container orchestration in production
 
 ---
