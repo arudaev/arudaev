@@ -33,7 +33,8 @@ I build things that work in production — not just in notebooks. Most of my pro
 | Project | Stack | What it does |
 |---------|-------|-------------|
 | 🌿 **[Zelara](https://github.com/zelara-ai)** | Python, FastAPI, React, On-Device ML | Open-source productivity platform where all inference runs on-device. No user data leaves the client. |
-| 🩻 **[CheXVision](https://github.com/arudaev/chexvision)** | Python, PyTorch, DenseNet-121, Streamlit, HuggingFace | Large-scale chest X-ray pathology detection on 112K NIH images. Custom CNN vs. DenseNet-121 transfer learning, Kaggle GPU training pipeline, HF Hub deployment, [live demo](https://huggingface.co/spaces/HlexNC/chexvision-demo). |
+| 🩻 **[CheXVision](https://arudaev.github.io/chexvision/)** | Python, PyTorch, DenseNet-121, HuggingFace, Kaggle | Large-scale chest X-ray pathology detection on 112K NIH images. DenseNet-121: **0.8459 macro AUC-ROC**; custom SE-ResNet: 0.8008. [Results & slides](https://arudaev.github.io/chexvision/) · [live demo](https://huggingface.co/spaces/HlexNC/chexvision-demo). |
+| ☕ **[Kaffeelisten](https://kaffeelisten.vercel.app)** | React, TypeScript, Vite, Supabase, Vercel | PWA replacing the paper coffee sheet at a coworking campus — 28 companies, 239 members, no login, sub-15-second logging. Automated monthly PDF + Excel reports via Vercel Cron. [Pitch deck](https://arudaev.github.io/kaffeelisten). Built at the B4Y3RW4LD Hackathon. |
 | 🏫 **[THD Room Finder](https://github.com/arudaev/THD-Room-Finder)** | Kotlin, Jetpack Compose, Room, Hilt | Native Android app showing free study rooms at THD in real time. MVVM + Clean Architecture, offline caching. Used by students. |
 | 🗑️ **[Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** | Python, YOLO, PyTorch, Streamlit | Computer vision app helping international students in Germany sort waste correctly. Live demo. |
 | 🚢 **[Titanic ML Platform](https://github.com/random-iceberg/docker-compose)** | React, FastAPI, PostgreSQL, Docker | Full-stack ML platform with 5 Docker services, JWT auth, model training/inference, prediction history. |
@@ -56,7 +57,7 @@ I build things that work in production — not just in notebooks. Most of my pro
 ### What I'm working on right now
 
 - Developing **Zelara** — solving the architectural constraints of privacy-first, on-device ML
-- Finishing **CheXVision** — comparing from-scratch ResNet vs. DenseNet-121 transfer learning on 112K chest X-rays
+- Completed **CheXVision** — DenseNet-121: 0.8459 macro AUC-ROC on 112K NIH chest X-rays ([results & slides](https://arudaev.github.io/chexvision/))
 - Preparing for a **summer internship** in software engineering
 - Deepening my understanding of **Kubernetes** and container orchestration in production
 
