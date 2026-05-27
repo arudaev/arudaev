@@ -1,10 +1,9 @@
 # Alexander Rudaev
 
 **Software Engineer** · Full-Stack · ML · Android  
-B.A.Sc. Artificial Intelligence @ [Deggendorf Institute of Technology](https://www.th-deg.de/en)  
-Open to internship / working student roles
+B.A.Sc. Artificial Intelligence @ [Deggendorf Institute of Technology](https://www.th-deg.de/en)
 
-I build things that work in production — not just in notebooks. Most of my professional experience is full-stack web (Next.js, Python, Docker), but I spend a lot of my own time on Android apps and ML systems. I care about clean architecture, test coverage that actually catches things, and writing code that the next person can maintain.
+I gravitate toward the role of technical anchor — the person who makes sure things actually ship. Most of my professional experience is full-stack web (Next.js, Python, Docker), and on my own time I work on Android apps and ML systems. I'm comfortable owning architecture decisions and writing the boring-but-critical infrastructure, though I've been actively practicing *not* over-engineering early — scoping to the simplest thing that proves the idea before the abstractions show up.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-arudaev-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/arudaev/)
 [![Email](https://img.shields.io/badge/Email-alex.rudaev@outlook.com-EA4335?style=flat&logo=gmail)](mailto:alex.rudaev@outlook.com)
@@ -33,8 +32,8 @@ I build things that work in production — not just in notebooks. Most of my pro
 | Project | Stack | What it does |
 |---------|-------|-------------|
 | 🌿 **[Zelara](https://github.com/zelara-ai)** | Python, FastAPI, React, On-Device ML | Open-source productivity platform where all inference runs on-device. No user data leaves the client. |
-| 🩻 **[CheXVision](https://github.com/arudaev/chexvision)** | Python, PyTorch, DenseNet-121, HuggingFace, Kaggle | Large-scale chest X-ray pathology detection on 112K NIH images. DenseNet-121: **0.8459 macro AUC-ROC**; custom SE-ResNet: 0.8008. [Results & slides](https://arudaev.github.io/chexvision/) · [live demo](https://huggingface.co/spaces/HlexNC/chexvision-demo). |
-| ☕ **[Kaffeelisten](https://github.com/arudaev/kaffeelisten)** | React, TypeScript, Vite, Supabase, Vercel | PWA replacing the paper coffee sheet at a coworking campus — 28 companies, 239 members, no login, sub-15-second logging. Automated monthly PDF + Excel reports via Vercel Cron. [Pitch deck](https://arudaev.github.io/kaffeelisten). Built at the B4Y3RW4LD Hackathon. |
+| 🩻 **[CheXVision](https://arudaev.github.io/chexvision/)** | Python, PyTorch, DenseNet-121, HuggingFace, Kaggle | Large-scale chest X-ray pathology detection on 112K NIH images. DenseNet-121: **0.8459 macro AUC-ROC**; custom SE-ResNet: 0.8008. [Results & slides](https://arudaev.github.io/chexvision/) · [live demo](https://huggingface.co/spaces/HlexNC/chexvision-demo). |
+| ☕ **[Kaffeelisten](https://kaffeelisten.vercel.app)** | React, TypeScript, Vite, Supabase, Vercel | PWA replacing the paper coffee sheet at a coworking campus — 28 companies, 239 members, no login, sub-15-second logging. Automated monthly PDF + Excel reports via Vercel Cron. [Pitch deck](https://arudaev.github.io/kaffeelisten). Built at the B4Y3RW4LD Hackathon. |
 | 🏫 **[THD Room Finder](https://github.com/arudaev/THD-Room-Finder)** | Kotlin, Jetpack Compose, Room, Hilt | Native Android app showing free study rooms at THD in real time. MVVM + Clean Architecture, offline caching. Used by students. |
 | 🗑️ **[Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** | Python, YOLO, PyTorch, Streamlit | Computer vision app helping international students in Germany sort waste correctly. Live demo. |
 | 🚢 **[Titanic ML Platform](https://github.com/random-iceberg/docker-compose)** | React, FastAPI, PostgreSQL, Docker | Full-stack ML platform with 5 Docker services, JWT auth, model training/inference, prediction history. |
@@ -64,16 +63,5 @@ I build things that work in production — not just in notebooks. Most of my pro
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=arudaev&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=arudaev&layout=compact&theme=tokyonight&hide_border=true&hide=jupyter%20notebook" alt="Top Languages" height="165" />
-</p>
-
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=arudaev&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</p>
-
----
-
-<p align="center">
-  <sub>Available for internship / working student positions from August 2026. Let's talk → <a href="mailto:alex.rudaev@outlook.com">alex.rudaev@outlook.com</a></sub>
+  <sub>Let's talk → <a href="mailto:alex.rudaev@outlook.com">alex.rudaev@outlook.com</a></sub>
 </p>
