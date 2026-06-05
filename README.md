@@ -43,11 +43,13 @@ My first code came from trying to bend games into things they were not built to 
 
 `(ദ്ദി˙ᗜ˙)` These are the ones are actually fun to `checkout`.
 
-| Project | Stack | What it does |
-|---------|-------|-------------|
-| ☕ **[Kaffeelisten](https://kaffeelisten.vercel.app)** | React, TypeScript, Vite, Supabase, Vercel | PWA replacing the paper coffee sheet at a coworking campus — 28 companies, 239 members, no login, sub-15-second logging. Automated monthly PDF + Excel reports via Vercel Cron. [Pitch deck](https://arudaev.github.io/kaffeelisten). Built at the B4Y3RW4LD Hackathon. |
-| 🩻 **[CheXVision](https://arudaev.github.io/chexvision/)** | Python, PyTorch, DenseNet-121, HuggingFace, Kaggle | Large-scale chest X-ray pathology detection on 112K NIH images. DenseNet-121: **0.8459 macro AUC-ROC**; custom SE-ResNet: 0.8008. [Results & slides](https://arudaev.github.io/chexvision/) · [live demo](https://huggingface.co/spaces/HlexNC/chexvision-demo). |
-| 🏫 **[THD Room Finder](https://github.com/arudaev/THD-Room-Finder)** | Kotlin, Jetpack Compose, Room, Hilt | Native Android app showing free study rooms at THD in real time. MVVM + Clean Architecture, offline caching. Used by students. |
+| System | Why it exists | Engineering signal |
+| --- | --- | --- |
+| ☕ **[Kaffeelisten](https://github.com/arudaev/kaffeelisten)** | Replace a coworking campus paper coffee/snack sheet. | No-login PWA for 28 companies, sub-15-second logging, Supabase RLS, admin CRUD, CSV export, PDF/Excel reporting, Resend email, Vercel Cron. [Live](https://kaffeelisten.vercel.app) / [Deck](https://arudaev.github.io/kaffeelisten/) |
+| 🩻 **[CheXVision](https://github.com/arudaev/chexvision)** | Detect chest X-ray pathologies at dataset scale. | 112,120 NIH images, dual-head PyTorch models, DenseNet-121 transfer learning at **0.8459 macro AUC-ROC**, Kaggle GPU dispatch, HF dataset/model/demo pipeline. [Results](https://arudaev.github.io/chexvision/) / [Demo](https://huggingface.co/spaces/arudaev/chexvision-demo) |
+| 🏫 **[THD Room Finder](https://github.com/arudaev/THD-Room-Finder)** | Help students find free study rooms at THD in real time. | Kotlin + Jetpack Compose app, MVVM/Clean Architecture, THD schedule parsing, Room offline cache, filters, refresh flows, iOS/SwiftUI delivery path. |
+| 🚢 **[Titanic ML Platform](https://github.com/random-iceberg/docker-compose)** | Turn a classic ML dataset into a deployable product. | 5 Docker services, React frontend, FastAPI web/model backends, PostgreSQL, JWT auth, model training/inference, prediction history, 7-person team architecture ownership. |
+| 🗑️ **[Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** | Help international students in Germany sort waste correctly. | YOLO/PyTorch computer-vision pipeline, Streamlit app, camera flow, deployment, practical user problem. |
 
 
 <details>
