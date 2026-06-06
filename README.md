@@ -61,7 +61,7 @@ My first code came from trying to bend games into things they were not built to 
 | --- | --- |
 | **Local-first / privacy-first AI** | 🌿 **[Zelara](https://github.com/zelara-ai)** — on-device inference, device linking, modular feature systems, skill-tree progression. |
 | **Perception & vision** | 🗑️ **[Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** — YOLO/PyTorch CV pipeline, Streamlit, live camera flow. Plus private modeling experiments. |
-| **Native mobile** | 🌍 **[iTravel](https://github.com/arudaev/iTravel)** |
+| **Native mobile** | 🌍 **[iTravel](https://github.com/arudaev/iTravel)** — Android travel app with maps, location-aware features, favorites, and sharing flows. |
 | **Full-stack systems** | 🚢 **[Titanic ML Platform](https://github.com/random-iceberg/docker-compose)** — 5 Docker services, React + FastAPI, PostgreSQL, JWT, 7-person team, architecture ownership. **·** 📄 **[Document Conversion Solutions](https://github.com/arudaev/Document-Conversion-Solutions)** |
 | **ML / data products** | 🎯 **[Project Apero](https://github.com/arudaev/Project-Arepo)** **·** 🕒 **[Deutsche Bahn Delay Predictor](https://arudaev.github.io/ml-db-delay-paper/)** |
 | **Agent systems** | 🤖 **Project Threnn** — private sandbox for governed multi-agent coordination, memory, replay, and role lifecycle experiments. |
@@ -72,7 +72,9 @@ My first code came from trying to bend games into things they were not built to 
 
 **How I build:** start from a concrete irritation, build the smallest real version, then tighten the system until it can survive someone else touching it.
 
-`idea notebook, literally (I have 5 now, one digital) -> repo + PRD -> research/docs/experimenting -> ... later`
+```txt
+idea notebook -> repo + PRD -> research -> prototype -> metrics -> polish -> ship
+```
 
 I do not mind boring reliability. I just do not like boring projects. `¯\_(ツ)_/¯`
 
