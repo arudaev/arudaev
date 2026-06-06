@@ -1,0 +1,51 @@
+<svg width="1000" height="235" viewBox="0 0 1000 235" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anchor, Voyager, Laboratory profile triad</title>
+  <desc id="desc">Three transparent profile blocks describing Alexander Rudaev as Anchor, Voyager, and Laboratory.</desc>
+  <style>
+    text {
+      fill: #000000;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    }
+    .heading {
+      font-size: 18px;
+      font-weight: 700;
+    }
+    .body {
+      font-size: 15px;
+      font-weight: 400;
+    }
+  </style>
+
+  <g transform="translate(18 8)">
+    <text class="heading" x="0" y="26">⚓ Anchor</text>
+    <text class="body" x="0" y="62">
+      <tspan x="0" dy="0">I like being the person who makes</tspan>
+      <tspan x="0" dy="24">the system real: architecture, data</tspan>
+      <tspan x="0" dy="24">flow, testing, deployment, docs,</tspan>
+      <tspan x="0" dy="24">and the boring parts that keep</tspan>
+      <tspan x="0" dy="24">ambitious projects alive.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(351 8)">
+    <text class="heading" x="0" y="26">🧭 Voyager</text>
+    <text class="body" x="0" y="62">
+      <tspan x="0" dy="0">US, Russia, Cyprus, Germany.</tspan>
+      <tspan x="0" dy="24">Different schools, languages,</tspan>
+      <tspan x="0" dy="24">codebases, teams, and assumptions.</tspan>
+      <tspan x="0" dy="24">The constant has been a laptop</tspan>
+      <tspan x="0" dy="24">and a notebook.</tspan>
+    </text>
+  </g>
+
+  <g transform="translate(684 8)">
+    <text class="heading" x="0" y="26">🧪 Laboratory</text>
+    <text class="body" x="0" y="62">
+      <tspan x="0" dy="0">I enjoy unusual systems:</tspan>
+      <tspan x="0" dy="24">on-device ML, local-first apps,</tspan>
+      <tspan x="0" dy="24">RAG, coding agents, simulations,</tspan>
+      <tspan x="0" dy="24">and perception models. Strange</tspan>
+      <tspan x="0" dy="24">ideas, tested seriously.</tspan>
+    </text>
+  </g>
+</svg>
