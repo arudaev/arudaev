@@ -20,22 +20,7 @@ B.A.Sc. Artificial Intelligence @ [Deggendorf Institute of Technology](https://w
 
 `(•_•)` &nbsp; I like software with a visible edge: a room finder students can actually use, a hackathon product that replaces a paper process, an ML pipeline with real metrics, or a private lab idea that slowly turns into an engineered system.
 
-<table>
-  <tr>
-    <td width="33%" valign="top">
-      <strong>⚓ Anchor</strong><br><br>
-      I like being the person who makes the system real: architecture, data flow, testing, deployment, docs, and the boring parts that keep ambitious projects alive.
-    </td>
-    <td width="33%" valign="top">
-      <strong>🧭 Voyager</strong><br><br>
-      US, Russia, Cyprus, Germany. Different schools, languages, codebases, teams, and assumptions. The constant has been a laptop and a notebook.
-    </td>
-    <td width="33%" valign="top">
-      <strong>🧪 Laboratory</strong><br><br>
-      I enjoy unusual systems: on-device ML, local-first apps, RAG, coding agents, simulations, perception models. Strange ideas, tested seriously.
-    </td>
-  </tr>
-</table>
+![](./about-triad.svg)
 
 My first code came from trying to bend games into things they were not built to be. That became scripts, after-school programming training, an open-source game project, full-stack work, Android apps, ML systems, and now experiments at the edge between software engineering and applied AI.
 
