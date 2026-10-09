@@ -1,9 +1,9 @@
 # Alexander Rudaev
 
-**Software Engineer** · Full-Stack · ML · Android  
+**Software Engineer** · Full-Stack · AI Systems  
 B.A.Sc. Artificial Intelligence @ [Deggendorf Institute of Technology](https://www.th-deg.de/en)
 
-I gravitate toward the role of technical anchor — the person who makes sure things actually ship. Most of my professional experience is full-stack web (Next.js, Python, Docker), and on my own time I work on Android apps and ML systems. I'm comfortable owning architecture decisions and writing the boring-but-critical infrastructure, though I've been actively practicing *not* over-engineering early — scoping to the simplest thing that proves the idea before the abstractions show up.
+I gravitate toward the role of technical anchor – the person who makes sure things actually ship, then keeps them running. Most of my professional experience is full-stack web (Next.js, Python, Docker); on my own time I build products people around me use and ML systems I can defend in a paper. I'm comfortable owning architecture decisions and writing the boring-but-critical infrastructure, though I've been actively practicing *not* over-engineering early – scoping to the simplest thing that proves the idea before the abstractions show up.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-arudaev-0A66C2?style=flat&logo=linkedin)](https://www.linkedin.com/in/arudaev/)
 [![Email](https://img.shields.io/badge/Email-alex.rudaev@outlook.com-EA4335?style=flat&logo=gmail)](mailto:alex.rudaev@outlook.com)
@@ -19,7 +19,7 @@ I gravitate toward the role of technical anchor — the person who makes sure th
 </p>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,androidstudio,docker,git,linux,aws,azure,postgres,nginx&theme=dark" alt="Tools & Frameworks" />
+    <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,fastapi,pytorch,supabase,postgres,docker,kubernetes,linux,git,aws,azure&theme=dark" alt="Tools & Frameworks" />
   </a>
 </p>
 
@@ -31,23 +31,24 @@ I gravitate toward the role of technical anchor — the person who makes sure th
 
 | Project | Stack | What it does |
 |---------|-------|-------------|
-| 🌿 **[Zelara](https://github.com/zelara-ai)** | Python, FastAPI, React, On-Device ML | Open-source productivity platform where all inference runs on-device. No user data leaves the client. |
-| 🩻 **[CheXVision](https://arudaev.github.io/chexvision/)** | Python, PyTorch, DenseNet-121, HuggingFace, Kaggle | Large-scale chest X-ray pathology detection on 112K NIH images. DenseNet-121: **0.8459 macro AUC-ROC**; custom SE-ResNet: 0.8008. [Results & slides](https://arudaev.github.io/chexvision/) · [live demo](https://huggingface.co/spaces/HlexNC/chexvision-demo). |
-| ☕ **[Kaffeelisten](https://kaffeelisten.de)** | React, TypeScript, Vite, Supabase, Vercel | PWA replacing the paper coffee sheet on the ITC1 campus — no login, self-registration, sub-15-second logging. PIN-protected admin and automated monthly reports for companies and members, with PDF + Excel exports. [Pitch deck](https://arudaev.github.io/kaffeelisten). Built at the B4Y3RW4LD Hackathon. |
-| 🏫 **[THD Room Finder](https://thd-room-finder.vercel.app/)** | React, TypeScript, Vite, Capacitor, PWA | One codebase (installable PWA + Android) showing which THD study rooms are free **right now — and for how long**. Duration-first ranking, 2.5D campus map, room search, live EN/DE, framework-free unit-tested domain core. Used by students. |
-| 🗑️ **[Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** | Python, YOLO, PyTorch, Streamlit | Computer vision app helping international students in Germany sort waste correctly. Live demo. |
-| 🚢 **[Titanic ML Platform](https://github.com/random-iceberg/docker-compose)** | React, FastAPI, PostgreSQL, Docker | Full-stack ML platform with 5 Docker services, JWT auth, model training/inference, prediction history. |
-| 🌍 **[iTravel](https://github.com/arudaev/iTravel)** | Kotlin, Google Maps, Material 3 | Android travel app with map discovery, GPS-validated reviews, weather/photo feeds, favorites & sharing. |
-| 🏥 **[Project Apero](https://github.com/arudaev/Project-Arepo)** | Python, Scikit-Learn, Rasa, Docker | ML-driven stroke risk estimation with analytics dashboards and a conversational assistant. |
+| ☕ **[Kaffeelisten](https://kaffeelisten.de)** | React, TypeScript, Supabase, Vercel | Replaced the paper coffee sheet at ITC1 Deggendorf, a 28-company coworking campus – no login, under 15 seconds per entry, monthly PDF + Excel statements. Two-developer team; I own the data model, row-level security, billing and reporting, and keep it running in production. Started at the B4Y3RW4LD Hackathon. [Pitch deck](https://arudaev.github.io/kaffeelisten) |
+| 🩻 **[CheXVision](https://arudaev.github.io/chexvision/)** | Python, PyTorch, DenseNet-121, Hugging Face, Kaggle | Chest X-ray pathology detection on 112,120 NIH images. A custom SE-ResNet from scratch (**0.814** macro AUC-ROC) against DenseNet-121 transfer learning (**0.846**, vs the published CheXNet 0.841) under one fixed protocol. Architecture & cloud lead, team of four. [Paper](https://arudaev.github.io/chexvision/report/) · [live demo](https://huggingface.co/spaces/arudaev/chexvision-demo) |
+| 🏫 **[THD Room Finder](https://thd-room-finder.vercel.app/)** | React, TypeScript, Vite, Capacitor | Which THD study rooms are free **right now – and for how long**. One codebase as an installable PWA and an Android app: duration-first ranking, 2.5D campus map, live EN/DE, framework-free unit-tested domain core. Used by students. |
+| 🚢 **[Full-Stack ML Platform](https://github.com/random-iceberg/docker-compose)** | React, FastAPI, PostgreSQL, Docker | Five-service product for auth, model training and inference, and per-user prediction history. Led the seven-person team: architecture, proposal, user stories, and a review on every PR. |
+| 🗑️ **[Waste Sorting Assistant](https://waste-sorting-assistant.streamlit.app/)** | Python, YOLOv8, PyTorch, Streamlit, Docker | Real-time bin detection for international students in Germany: YOLOv8 fine-tuned on 466 local images, 95.2% mAP@0.5. Three-person team; I owned DevOps and deployment. |
+| 🌊 **GKD4HYDRO** *(private client repo)* | Python, pandas, SciPy, Parquet, pytest | Leading a four-person client project that turns Lower Bavarian river data into reproducible oscillation analyses – ramp rates, cycles, seasonal percentiles – from a single command. |
 
 <details>
-<summary><strong>Other projects</strong> (earlier work, learning projects)</summary>
+<summary><strong>Other projects</strong> (earlier work, prototypes, learning projects)</summary>
 
-- 🚂 **Deutsche Bahn Delay Predictor** — Supervised regression model predicting train delays from historical DB schedule data.
-- 🤖 **Devablos V2** — Full-stack chatbot with real-time WebSocket communication and OpenAI API integration.
-- 📄 **Document Conversion Solutions** — Toolkit for format conversion across Python APIs, web frontend, and npm packages.
-- 🦄 **UNICorn** — AI-powered university assistant.
-- 🎮 **WildForFood** — Web-based Unity game built around rapid gameplay iteration.
+- 🌿 **[Zelara](https://github.com/zelara-ai)** – Edge-first app core: shared state, device linking, and conditional builds where inference stays on-device.
+- 🚂 **[Deutsche Bahn Delay Predictor](https://arudaev.github.io/ml-db-delay-paper/)** – 2.06 million DB records, 16 engineered features, three regression approaches compared on held-out data. Team of three.
+- 🏥 **[Project Apero](https://github.com/arudaev/Project-Arepo)** – Educational stroke-risk study app with a locally run Rasa assistant. Not a clinical product.
+- 🤖 **Devablos V2** – Real-time React/Node.js app with OpenAI over secure WebSockets; led the five-person first-year team.
+- 🌍 **[iTravel](https://github.com/arudaev/iTravel)** – Android travel app with map discovery, GPS-validated reviews, and weather/photo feeds.
+- 📄 **Document Conversion Solutions** – Format-conversion toolkit across Python APIs, a web frontend, and npm packages.
+- 🦄 **UNICorn** – Pre-ChatGPT university assistant on GPT-3, Whisper, and semantic search.
+- 🎮 **WildForFood** – Web-based Unity game built around rapid gameplay iteration.
 
 </details>
 
@@ -55,10 +56,10 @@ I gravitate toward the role of technical anchor — the person who makes sure th
 
 ### What I'm working on right now
 
-- Developing **Zelara** — solving the architectural constraints of privacy-first, on-device ML
-- Completed **CheXVision** — DenseNet-121: 0.8459 macro AUC-ROC on 112K NIH chest X-rays ([results & slides](https://arudaev.github.io/chexvision/))
-- Preparing for a **summer internship** in software engineering
-- Deepening my understanding of **Kubernetes** and container orchestration in production
+- Leading **GKD4HYDRO**, a client project on river-level oscillations in Lower Bavaria
+- Keeping **Kaffeelisten** running in production for the ITC1 campus
+- Final stretch of my **B.A.Sc. in AI** at THD
+- A twelve-month, build-led **robotics** programme: control, state estimation, electronics, CAD
 
 ---
 
