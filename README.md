@@ -56,6 +56,7 @@ I gravitate toward the role of technical anchor – the person who makes sure th
 
 ### What I'm working on right now
 
+- **[Voyager // 56K](https://arudaev.github.io)** – this portfolio as a game: a rubber duck sailing the flooded internet of 1999, where every island is a project
 - Leading **GKD4HYDRO**, a client project on river-level oscillations in Lower Bavaria
 - Keeping **Kaffeelisten** running in production for the ITC1 campus
 - Final stretch of my **B.A.Sc. in AI** at THD
